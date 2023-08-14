@@ -1,0 +1,94 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2023-08-14T07:34:00.884Z",
+    "__export_source": "insomnia.desktop.app:v2023.3.0",
+    "resources": [
+        {
+            "_id": "req_8f31ef52732b4ec790f9db6131bfb507",
+            "parentId": "wrk_d8603b32102144679676bb774a92a65d",
+            "modified": 1691998382676,
+            "created": 1691536259782,
+            "url": "http://localhost:3333/user",
+            "name": "getUser",
+            "description": "",
+            "method": "GET",
+            "body": {},
+            "parameters": [],
+            "headers": [],
+            "authentication": {},
+            "metaSortKey": -1691536259782,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_d8603b32102144679676bb774a92a65d",
+            "parentId": null,
+            "modified": 1691535303429,
+            "created": 1691535303429,
+            "name": "pet-manager",
+            "description": "",
+            "scope": "collection",
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_d3c69057fd4b4dde82a41b4366202413",
+            "parentId": "wrk_d8603b32102144679676bb774a92a65d",
+            "modified": 1691536562325,
+            "created": 1691535326555,
+            "url": "http://localhost:3333/user",
+            "name": "createUser",
+            "description": "",
+            "method": "POST",
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Ana Laura Nunes\",\n\t\"email\": \"aninha@gmail.com\",\n\t\"phone\": 646464646464,\n\t\"password\": \"123456789\"\n}"
+            },
+            "parameters": [],
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "authentication": {},
+            "metaSortKey": -1691535326555,
+            "isPrivate": false,
+            "settingStoreCookies": true,
+            "settingSendCookies": true,
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingFollowRedirects": "global",
+            "_type": "request"
+        },
+        {
+            "_id": "env_851dc138661deb4c8e480145f32f1c4c4cc69d10",
+            "parentId": "wrk_d8603b32102144679676bb774a92a65d",
+            "modified": 1691535303431,
+            "created": 1691535303431,
+            "name": "Base Environment",
+            "data": {},
+            "dataPropertyOrder": null,
+            "color": null,
+            "isPrivate": false,
+            "metaSortKey": 1691535303431,
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_851dc138661deb4c8e480145f32f1c4c4cc69d10",
+            "parentId": "wrk_d8603b32102144679676bb774a92a65d",
+            "modified": 1691535303432,
+            "created": 1691535303432,
+            "name": "Default Jar",
+            "cookies": [],
+            "_type": "cookie_jar"
+        }
+    ]
+}
